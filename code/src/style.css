@@ -1,0 +1,85 @@
+.text {
+    color: #404040;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.title {
+    color: purple;
+    font-size: 28px;
+}
+
+div {
+    max-width: 100%;
+}
+
+a {
+    color: purple;
+}
+input {
+    outline: medium;
+}
+a:visited {
+    color: #996699
+}
+
+button:hover {
+    background: purple;
+    color: white;
+}
+.page-title {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.page-title:hover {
+    background: transparent;
+    /* font-size: 60px;
+    text-align: center;
+    margin-top: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+button {
+    font-size: 14px;
+    height: 100%;
+    border-radius: 5px;
+    background: #F0F0F0;
+    border: transparent;
+    outline: medium;
+    transition: all 0.2s ease-in-out;
+}
+label {
+    user-select: none;
+}
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.userinfo {
+    font-size: 20px;
+}
+.button-selected {
+    background: #996699;
+    filter: brightness(1.2);
+    color: white;
+}
+.floated {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    top: 14%;
+    border-radius: 25px;
+    color: white;
+    border: white solid 2px;
+    box-shadow: #996699 0 0 2px 2px;
+    background: #996699;
+}
+.floated:hover {
+    color: white;
+    /* border: transparent; */
+    background: purple;
+    box-shadow: purple 0 0 6px 2px;
+    transition: all 0.2s;
+}
